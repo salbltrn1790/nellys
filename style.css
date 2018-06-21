@@ -1,0 +1,261 @@
+body{
+  margin: 0;
+}
+.container{
+  height:570px;
+}
+.navbar h1{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: black solid 5px;
+}
+.menu span{
+  padding-left: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+.menu span a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.menu span a:hover{
+  color: #4BBDA2;
+  transition: color 300ms ease-in;
+}
+.menu{
+  margin: 20px 15px 0 0;
+}
+
+.main{
+  background-image:url("file:///Users/salvadormurillo/Desktop/nellys/resources/beachhair.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-position: top 30%;
+  display: flex;
+  align-items: center;
+  border-bottom:black solid 5px;
+}
+.main-txt span{
+  color: white;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+.about-container span{
+  font-family:'Pacifico', cursive;
+  font-size: 30px;
+  margin-top:10px;
+}
+.about-content{
+  width: 60%;
+  margin: 0 auto;
+  height: 430px;
+  margin-bottom:black solid 5px;
+  display: flex;
+  flex-direction: column;
+}
+.about-content span{
+  text-align: center;
+}
+.about-content p{
+  line-height: 1.8;
+}
+
+.location-container{
+  width: 100%;
+  margin-bottom: 15px;
+  margin: 0 auto;
+}
+.map-content{
+  border: 5px solid #5D6D7E;
+}
+.footer-container{
+  background-color:#4BBDA2;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hours-content{
+  color: white;
+  padding-left: 10px;
+}
+.hours-content h2, p{
+  font-family: 'Raleway', sans-serif;
+}
+.social-icons img{
+  width: 50px;
+  height: 50px;
+}
+.social-icons{
+  margin-right: 10px;
+}
+/* ABOUT US CSS */
+.services-container{
+  height: 350px;
+  width: 100%;
+  background-color:#4BBD9E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:30px;
+}
+.haircut-circle{
+  height: 300px;
+  width: 300px;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/salon.jpg");
+  border-radius: 50%;
+  background-size: cover;
+}
+.haircolor-circle{
+  height: 300px;
+  width: 300px;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/haircolor.jpg");
+  border-radius: 50%;
+  background-size: cover;
+}
+.haircolor-circle:hover p{
+  transform: translate(100px,100px);
+  color: white;
+}
+.eyebrowwax-circle{
+  height: 300px;
+  width: 300px;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/eyebrow2.jpg");
+  border-radius: 50%;
+  background-size: cover;
+
+}
+.haircolor-circle p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  pointer-events: none;
+ transition: transform 700ms ease-in-out;
+
+}
+.haircut-circle p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  transition: transform 700ms ease-in-out;
+
+}
+.haircut-circle:hover p{
+  transform: translate(100px,100px);
+  color: white;
+}
+.eyebrowwax-circle p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  transition: transform 700ms ease-in-out;
+}
+.eyebrowwax-circle:hover p{
+  transform: translate(100px,100px);
+  color: #4BBDA2;
+
+}
+/* Services Page */
+.containerservicespage{
+  height: 1575px;
+  width: 100%;
+}
+.mainservicespage{
+  height: 800px;
+  width: 100%;
+}
+.firststrip{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: background 700ms ease-in-out;
+}
+.firststrip:hover{
+  background-color: #4BBDA2;
+}
+.haircolor-picture{
+  height: 400px;
+  width: 200px;
+  margin-top: 50px;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/adult-attractive-beautiful-371160.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.haircolor-content{
+  width: 600px;
+  height: 200px;
+  padding-top: 133px;
+  padding-bottom: 133px;
+  padding-left: 50px;
+  line-height: 27px;
+}
+.haircolor-content p{
+  font-family: 'Permanent Marker', cursive;
+}
+.secondstrip{
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  transition: background 700ms ease-in-out;
+}
+.secondstrip:hover{
+  background-color: pink;
+}
+.haircut-picture{
+  height: 400px;
+  width: 220px;
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/Lionesse-Big-Chop-for-Charity.jpg");
+}
+.haircut-content{
+  width: 600px;
+  height: 200px;
+  padding-top: 133px;
+  padding-bottom: 133px;
+  padding-right: 50px;
+  line-height: 27px;
+}
+.haircut-content p{
+  font-family: 'Permanent Marker', cursive;
+}
+.thirdstrip{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: background 700ms ease-in-out;
+}
+.thirdstrip:hover{
+  background-color: #FFFFB2;
+}
+.eyebrowwaxing-pic{
+  height: 400px;
+  width: 220px;
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/002.png");
+}
+.eyebrowwaxing-content{
+  width: 600px;
+  height: 200px;
+  padding-top: 133px;
+  padding-bottom: 133px;
+  padding-left: 50px;
+  line-height: 27px;
+}
+.eyebrowwaxing-content p{
+  font-family: 'Permanent Marker', cursive;
+}
