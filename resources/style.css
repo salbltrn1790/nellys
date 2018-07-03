@@ -35,7 +35,11 @@ body{
 }
 
 .main{
+<<<<<<< HEAD:resources/style.css
   background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/images/beachhair.jpg");
+=======
+  background-image:url("nellys/resources/beachhair.jpg");
+>>>>>>> d167183f055e5ba6719d77d4f1cfc1260fea164b:style.css
   height: 500px;
   background-size: cover;
   background-position: center;
