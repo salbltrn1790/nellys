@@ -35,7 +35,7 @@ body{
 }
 
 .main{
-  background-image:url("Users/salvadormurillo/desktop/nellys/resources/images/beachhair.jpg");
+  background-image:url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/luxy-hair-hero-image-1-1.jpg");
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -44,6 +44,7 @@ body{
   align-items: center;
   border-bottom:black solid 5px;
 }
+
 .main-txt span{
   color: white;
   font-weight: bold;
@@ -113,14 +114,14 @@ body{
 .haircut-circle{
   height: 300px;
   width: 300px;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/salon.jpg");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/Beibehang-zel-Duvar-Ka-d-Nordic-R-zgar-Kuaf-r-Salon-Kuaf-rl-k-G-zellik.jpg");
   border-radius: 50%;
   background-size: cover;
 }
 .haircolor-circle{
   height: 300px;
   width: 300px;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/haircolor.jpg");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/69df060ef8a7c8620ee711bc8188e8cc.jpg");
   border-radius: 50%;
   background-size: cover;
 }
@@ -131,7 +132,7 @@ body{
 .eyebrowwax-circle{
   height: 300px;
   width: 300px;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/eyebrow2.jpg");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/844400926-612x612.jpg");
   border-radius: 50%;
   background-size: cover;
 
@@ -186,7 +187,7 @@ body{
   height: 400px;
   width: 200px;
   margin-top: 50px;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/adult-attractive-beautiful-371160.jpg");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/best-ombre-hair-charming.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -217,7 +218,7 @@ body{
   margin-top: 50px;
   background-size: cover;
   background-position: center;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/Lionesse-Big-Chop-for-Charity.jpg");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/e808e7abb1094194b0ba370394690af6.png");
 }
 .haircut-content{
   width: 600px;
@@ -246,7 +247,7 @@ body{
   margin-top: 50px;
   background-size: cover;
   background-position: center;
-  background-image: url("file:///Users/salvadormurillo/Desktop/nellys/resources/002.png");
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/eyebrowwaxing-720x360%20(1).jpg");
 }
 .eyebrowwaxing-content{
   width: 600px;
